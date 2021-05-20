@@ -1,7 +1,13 @@
+import UserStories from './UserStories';
+
 function Feed() {
     return (
         <div>
-            FEED
+            <div>
+                <UserStories />
+            {/*INPUT BOX*/}
+            {/*USER POSTS*/}
+            </div>
         </div>
     );
 }

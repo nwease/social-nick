@@ -20,8 +20,8 @@
     .inputIcon {
         @apply
         flex
-        items-center
         space-x-1
+        items-center
         hover:bg-gray-100
         flex-grow
         justify-center

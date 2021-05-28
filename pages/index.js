@@ -4,6 +4,7 @@ import {getSession} from 'next-auth/client';
 import Login from '../components/Login';
 import SideBar from '../components/SideBar';
 import Feed from '../components/Feed';
+import Widgets from '../components/Widgets';
 
 export default function Home({session}) {
 
@@ -24,7 +25,7 @@ export default function Home({session}) {
             <main className='flex'>
                 <SideBar />
                 <Feed />
-            {/*CONTACTS*/}
+                <Widgets />
             </main>
         </div>
     )

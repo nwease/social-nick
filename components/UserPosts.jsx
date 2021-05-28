@@ -16,6 +16,7 @@ function UserPosts() {
                     <Post
                         key={post.id}
                         name={post.data().name}
+                        message={post.data().message}
                         email={post.data().email}
                         timestamp={post.data().timestamp}
                         image={post.data().image}
